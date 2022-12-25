@@ -1,5 +1,5 @@
-// import { Input } from "@force-dev/react-front";
-// import { camelize } from "@force-dev/utils";
+import { Input, Switch } from "@force-dev/react-front";
+import { camelize } from "@force-dev/utils";
 import React from "react";
 import styled from "styled-components";
 
@@ -15,7 +15,8 @@ export const onBeforeRender = async () => {
 export const Page = () => (
   <div>
     <Text>123</Text>
-    {/* <Input placeholder={camelize("placeholder")} /> */}
+    <Switch />
+    <Input placeholder={camelize("placeholder")} />
   </div>
 );
 

@@ -9,7 +9,6 @@
     "yarn": ">=1.22.18",
     "node": ">=16.14.2"
   },
-  "type": "module",
   "homepage": "https://github.com/epifanovmd/react-ssr",
   "author": {
     "name": "Epifanov Andrei",
